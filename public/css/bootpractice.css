@@ -1,0 +1,752 @@
+/*
+  유승훈 작성 
+*/
+
+.modal-body .form-horizontal .form-group .title{
+	width : 49%;
+	display : inline-block;
+	position : relative;
+	text-align : center;
+	margin-bottom : 10px;
+}
+.modal-body .form-horizontal .form-group .title h4{
+	font-weight : bold;
+}
+.modal-body .form-horizontal .form-group .menu{
+	width : 49%;
+	display : inline-block;
+	position : relative;
+	margin-top : 5px;
+}
+.modal-body .form-horizontal .form-group .menu .card-select select{
+	width : 200px;
+	height : 35px;
+}
+
+.modal-body .form-horizontal .form-group .menu input{
+	width : 200px;
+	height : 30px;
+
+}
+.modal-body .form-horizontal .form-group .menu .valid select{
+	width : 33%;
+	height : 35px;
+}
+.modal-body .form-horizontal .form-group .sub_btn{
+	margin-top : 20px;
+	text-align : center;
+}
+.modal-body .form-horizontal .form-group .sub_btn .btn-lg{
+	width : 200px;
+}
+
+@media (max-width: 441px)
+{
+.gnb {
+  padding: 25px 20px 0;
+  height: 80px;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #eee;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+
+.main .gnb {
+  background: none;
+  border: 0 none;
+}
+.main .snsTopLinks {
+  background: rgba(0,0,0,0.2);
+}
+
+
+.money{
+  float:left;
+  padding:0;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.money li{
+  float:left;
+  margin-right: 10px;
+  list-style:none;
+}
+
+.money li>a{
+  display:block;
+  color: gray;
+  text-decoration:none;
+}
+
+.money li>a:hover{
+  color:red;
+  opacity:0.7;
+  transition:.3s ease-in-out
+}
+
+/* 메뉴 링크 */
+/* .col-xs-12 .menu {
+  display:inline-flex;
+  padding: 0;
+  font-weight:bold;
+}
+.col-xs-12 .menu li {
+  list-style: none;
+  padding:10px;
+}
+
+.col-xs-12 .menu li>a {
+  color: gray;
+  font-size:10px;
+  border-radius: 100px;
+}
+
+.col-xs-12 .menu li>a:hover {
+  border: 1.5px solid gray;
+  text-decoration: none;
+}
+.col-xs-12 .menu li>a:hover {
+  border-color: #fff;
+} */
+
+.menu {
+  display:inline-flex;
+  padding: 0;
+  font-weight:bold;
+}
+.menu li {
+  list-style: none;
+  padding:10px;
+}
+
+.menu li>a {
+  color: gray;
+  font-size:10px;
+  border-radius: 100px;
+}
+
+.menu li>a:hover {
+  border: 1.5px solid gray;
+  text-decoration: none;
+}
+.main .menu li>a:hover {
+  border-color: #fff;
+}
+
+.wrap {
+  background: #fff;
+}
+
+
+.sectionTitle {
+  position: relative;
+  padding-right: 13px;
+}
+.sectionTitle:before {
+  content: " ";
+  margin-left:40px;
+  margin-top: 2px;
+  position: absolute;
+  height: 16px;
+  width: 8px;
+  background: gray;
+  border-radius: 1px;
+}
+.sectionTitle h2 {
+  font-size: 16px;
+  font-weight: 300;
+  color: gray;
+  margin: 15px 60px 30px;
+}
+.sectionTitle h2 small {
+  font-size: 12px;
+  color: black;
+  display: block;
+  font-weight: 300;
+  margin: 8px 0 10px;
+}
+.sectionTitle h2 b {
+  font-weight: 600;
+}
+
+.container .row .menulink button {
+    border: none;
+    display: none;
+    font-weight:bold;
+    color:white;
+    background-color: #bcbcbc;
+    text-align: center;
+    width:130px;
+    height:100px;
+    font-size: 14px;
+    margin-left:10px;
+  }
+
+
+.row .menulink a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+
+.row .menulink li {
+  position:block;
+  list-style : none;
+  background-color :white;
+  float:left;
+  line-height:60px;
+  text-align: center;
+}
+
+.container .row .talbe{
+  margin-top:30px;
+}
+
+.row .col-xs-12 .menulink2 {
+
+  text-decoration: none;
+  background-color:black;
+  color:white;
+  margin-top:1%;
+  float:left;
+  width:100px;
+  height:60px;
+  font-size:12px;
+  font-weight: bold;
+}
+
+.row .col-xs-12 .menulink2:hover {
+  background-color:#e7b315;
+  color:white;
+  transition: .4s ease-in-out;
+}
+
+.row .col-xs-12 .table{
+  width:80%;
+}
+
+.row .col-xs-12 .table tr{
+  font-size:11px;
+}
+
+.row .col-xs-12 .table tr>td{
+  font-size:12px;
+  font-weight:bold;
+}
+.row .col-xs-12 .table img:hover{
+  opacity:0.8;
+  transform:scale(1.1);
+}
+
+.row .col-xs-12 .table img{
+  width:80%;
+}
+
+.row .havecoupon a{
+  text-decoration:none;
+  color:black;
+}
+
+.row .havecoupon figure{
+  display : inline-block;
+  margin-left:5px;
+  margin-bottom: 30px;
+  margin-top:15px;
+  border : 1.5px solid rgba(0,0,0,0.2);
+  box-shadow : 3px 3px 5px rgba(0,0,0,0.5);
+  background-color:rgba(255,255,255,0.2);
+}
+
+.row .havecoupon figure:hover{
+  opacity:0.8;
+  transform:scale(1.1);
+}
+
+.row .havecoupon a:hover{
+  color:#e7b315;
+  transition: .4s ease-in-out;
+}
+
+.row .havecoupon figure img{
+  width : 120px;
+}
+
+.row .havecoupon figcaption {
+  font-size : 15px;
+  font-weight:bold;
+  border-top : 1px solid rgba(0,0,0,0.2);
+  padding : 10px;
+  margin-top : 10px;
+}
+}
+@media (min-width: 441px) and (max-width: 992px) {
+
+.gnb {
+  padding: 25px 20px 0;
+  height: 80px;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #eee;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+
+.money{
+  float:left;
+  padding:0;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.money li{
+  float:left;
+  margin-right: 10px;
+  list-style:none;
+}
+
+.money li>a{
+  display:block;
+  color: gray;
+  text-decoration:none;
+}
+
+.money li>a:hover{
+  color:red;
+  opacity:0.7;
+  transition:.3s ease-in-out
+}
+
+/* 메뉴 링크 */
+/* .col-sm-12 .menu {
+  display:inline-flex;
+  padding: 0;
+  font-weight:bold;
+  margin-right:10px;
+}
+.col-sm-12 .menu li {
+  list-style: none;
+  padding:5px;
+}
+
+.col-sm-12 .menu li>a {
+  color: gray;
+  font-size:15px;
+  margin-left:7px;
+  border-radius: 100px;
+}
+
+.col-sm-12 .menu li>a:hover {
+  border: 1.5px solid gray;
+  text-decoration: none;
+}
+.col-sm-12 .menu li>a:hover {
+  border-color: #fff;
+} */
+
+.menu {
+  display:inline-flex;
+  padding: 0;
+  font-weight:bold;
+  margin-right:10px;
+}
+
+.menu li {
+  padding:5px;
+}
+
+.menu li>a {
+  color:gray;
+  font-size:15px;
+  margin-left:7px;
+  border-radius: 100px;
+}
+
+.menu li>a:hover {
+  border: 1.5px solid gray;
+}
+
+
+.wrap {
+  background: #fff;
+}
+
+
+.sectionTitle {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sectionTitle:before {
+  content: " ";
+  margin-left:40px;
+  margin-top: 2px;
+  position: absolute;
+  height: 24px;
+  width: 12px;
+  background: gray;
+  border-radius: 1px;
+}
+.sectionTitle h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: gray;
+  margin: 15px 60px 30px;
+}
+.sectionTitle h2 small {
+  font-size: 13px;
+  color: black;
+  display: block;
+  font-weight: 300;
+  margin: 8px 0 10px;
+}
+.sectionTitle h2 b {
+  font-weight: 600;
+}
+
+.container .row .menulink button {
+    border: none;
+    display: none;
+    font-weight:bold;
+    color:white;
+    background-color: #bcbcbc;
+    text-align: center;
+    width:130px;
+    height:100px;
+    font-size: 14px;
+    margin-left:10px;
+  }
+
+
+.row .menulink a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.row .menulink li {
+  position:block;
+  list-style : none;
+  background-color :white;
+  float:left;
+  line-height:60px;
+  text-align: center;
+
+}
+
+.row .navibar a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.row .navibar li {
+  position:block;
+  list-style : none;
+  background-color :white;
+  float:left;
+  line-height:60px;
+  text-align: center;
+}
+
+.container .row .table{
+  margin-top:30px;
+}
+
+.row .table{
+  width:90%;
+}
+
+
+
+.row .col-sm-12 .menulink2 {
+
+  text-decoration: none;
+  background-color:black;
+  color:white;
+  float:left;
+  width:168px;
+  height:60px;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.row .col-sm-12 .menulink2:hover {
+  background-color:#e7b315;
+  color:white;
+  transition: .4s ease-in-out;
+}
+
+/* .row .col-sm-12 .table img{
+  margin-left:10%;
+}
+ */
+
+.row .col-sm-12 .table img:hover{
+  opacity:0.8;
+  transform:scale(1.1);
+}	
+
+.row .havecoupon a{
+  text-decoration:none;
+  color:black;
+}
+
+.row .havecoupon figure{
+  display : inline-block;
+  margin-left:14px;
+  margin-bottom: 30px;
+  margin-top:25px;
+  border : 1.5px solid rgba(0,0,0,0.2);
+  box-shadow : 3px 3px 5px rgba(0,0,0,0.5);
+  background-color:rgba(255,255,255,0.2);
+}
+
+.row .havecoupon figure:hover{
+  opacity:0.8;
+  transform:scale(1.1);
+}
+
+.row .havecoupon a:hover{
+  color:#e7b315;
+  transition: .4s ease-in-out;
+}
+
+.row .havecoupon figure img{
+  width : 200px;
+}
+
+.row .havecoupon figcaption {
+  font-size : 15px;
+  font-weight:bold;
+  border-top : 1px solid rgba(0,0,0,0.2);
+  padding : 10px;
+
+}
+}
+
+
+@media (min-width: 992px)  {
+
+.gnb {
+  padding: 25px 20px 0;
+  height: 80px;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #eee;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+
+.main .gnb {
+  background: none;
+  border: 0 none;
+}
+.main .snsTopLinks {
+  background: rgba(0,0,0,0.2);
+}
+
+
+.money{
+  float:left;
+  padding:0;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.money li{
+  float:left;
+  margin-right: 10px;
+  list-style:none;
+}
+
+.money li>a{
+  display:block;
+  color: gray;
+  text-decoration:none;
+}
+
+.money li>a:hover{
+  color:red;
+  opacity:0.7;
+  transition:.3s ease-in-out
+}
+
+/* 메뉴 링크 */
+.menu {
+  float: right;
+  padding: 0;
+  font-size: 15px;
+  font-weight:bold;
+}
+.menu li {
+  float: left;
+  margin-right: 10px;
+  list-style: none;
+}
+
+.menu li>a {
+  display: block;
+  padding: 10px 20px;
+  color: gray;
+  border-radius: 100px;
+}
+
+.menu li>a:hover {
+  border: 1.5px solid gray;
+  text-decoration: none;
+}
+.main .menu li>a:hover {
+  border-color: #fff;
+}
+
+.wrap {
+  background: #fff;
+}
+
+
+.sectionTitle {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sectionTitle:before {
+  content: " ";
+  margin-left:40px;
+  margin-top: 2px;
+  position: absolute;
+  height: 24px;
+  width: 12px;
+  background: gray;
+  border-radius: 1px;
+}
+.sectionTitle h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: gray;
+  margin: 15px 60px 30px;
+}
+.sectionTitle h2 small {
+  font-size: 13px;
+  color: black;
+  display: block;
+  font-weight: 300;
+  margin: 8px 0 10px;
+}
+.sectionTitle h2 b {
+  font-weight: 600;
+}
+
+
+.container .row .menulink p>button {
+    border: none;
+    display: inline-block;
+    font-weight:bold;
+    color:white;
+    background-color: #bcbcbc;
+    text-align: center;
+    width:200px;
+    height:180px;
+    font-size: 18px;
+    margin-top:10px;
+    margin-left:10px;
+  }
+
+
+.row .menulink a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+
+.row .menulink li {
+  position:inline-block;
+  list-style : none;
+  background-color :white;
+  float:left;
+  line-height:60px;
+  text-align: center;
+  margin-left:10px;
+}
+
+.row .col-md-3 .menulink2 {
+  text-decoration: none;
+  background-color:black;
+  color:white;
+  margin-top:1%;
+  float:left;
+  width:200px;
+  height:60px;
+  font-size:14px;
+  font-weight: bold;
+}
+
+.row .col-md-3 .menulink2:hover {
+  background-color:#e7b315;
+  color:white;
+  transition: .4s ease-in-out;
+}
+
+.row .col-md-9 .table{
+  width:100%;
+}
+
+.row .col-md-9 .table img:hover{
+  opacity:0.8;
+  transform:scale(1.1);
+}
+
+/* .row .col-md-9 .table img{
+  margin-left:13%;
+} */
+
+.row .havecoupon a{
+  text-decoration:none;
+  color:black;
+}
+
+.row .havecoupon figure{
+  display : inline-block;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom: 70px;
+  margin-top:15px;
+  border : 1.5px solid rgba(0,0,0,0.2);
+  box-shadow : 3px 3px 5px rgba(0,0,0,0.5);
+  background-color:rgba(255,255,255,0.2);
+}
+
+.row .havecoupon figure:hover{
+  opacity:0.8;
+  transform:scale(1.1);
+}
+
+.row .havecoupon a:hover{
+  color:#e7b315;
+  transition: .4s ease-in-out;
+}
+
+.row .havecoupon figure img{
+  width : 170px;
+}
+
+.row .havecoupon  figcaption {
+  font-size : 15px;
+  font-weight:bold;
+  border-top : 1px solid rgba(0,0,0,0.2);
+  padding : 10px;
+  margin-top : 10px;
+}
+}

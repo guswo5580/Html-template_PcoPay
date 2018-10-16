@@ -1,0 +1,310 @@
+/*
+  문현비 작성
+*/
+
+body{
+  font-family: '나눔고딕';  
+  font-size: 1.2rem;
+}
+
+div{
+    padding: 3px;
+}
+
+hr{
+    background-color: black;
+}
+
+.next{
+    width: 50px;
+    margin-left: 45%;
+    margin-right:45%;
+    background-color: #FFE400;
+    font-weight: 500;
+}
+
+#join_title:after{
+	content: '';
+    display: block;
+    width: 70%;
+    height: 3px;
+    background-color: #e7b315;
+    position: absolute;
+    left: 16%;
+}
+
+/*전체*/
+
+#second{
+    margin-bottom: 10%;
+}
+
+#container{
+    width : 80%;
+	display : block;
+    margin-top: auto;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#signtitle{
+    font-weight: 700;
+    text-align : center;
+	font-size : 3.5rem;
+	margin-top : 100px;
+}
+
+#signsub{
+    text-align : center;
+	margin-top : 50px;
+	margin-bottom : 40px;
+}
+#signsub p{
+	font-size : 2.3rem;
+}
+
+
+.subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.smallscr{
+    font-size: 1.4rem;
+    color: gray;
+    padding: 1%;
+}
+
+
+/*동의*/
+#first{
+    margin-bottom: 4%;
+	margin-top : 40px;
+}
+
+a{
+    color: black;
+    font-size: 1.8rem;
+}
+#all{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+textarea{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+/*개인정보입력*/
+
+#section1{
+        margin-bottom: 4%;
+}
+.need{
+    font-weight: 600;
+    color: crimson;
+    margin-right: 2%;
+    font-size: 1.5rem;
+}
+.op{
+    color:white;
+}
+
+input{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1.8rem;
+
+}
+.pr{
+    margin-bottom: 1%;
+    border-bottom-style:solid;
+    border-bottom-color: lightgrey;
+    border-bottom-width: thin;
+    margin-bottom: 0.5%;
+}
+
+button{
+    margin-left: 1%;
+    padding: 0.3%;
+    font-size: 1.5rem;
+}
+
+
+/*제출하기*/
+
+#submit{
+	
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+#submit .join_btn{
+	width : 40%;
+}
+#submit .join_btn a{
+	color : white;
+	font-weight : bold;
+}
+#submit .reset_btn{
+	width : 40%;
+}
+#submit .reset_btn a{
+	color : white;
+	font-weight : bold;
+}
+
+
+
+#compltitle{
+    font-weight: 700;
+    text-align : center;
+	font-size : 4rem;
+	margin-top : 100px;
+}
+
+#complsub{
+     text-align : center;
+	font-size : 1.8rem;
+	margin-top : 10px;
+	margin-bottom : 40px;
+}
+
+.return{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+a{    text-decoration: none;}
+
+
+
+/*/////////////////////반응형///////////////////////////*/
+
+@media screen and (max-width:767px){
+    
+    body{ 
+  font-size: 1.2rem;
+}
+
+    #signtitle{
+    font-size : 1.6rem;
+}
+    #signsub{
+    font-size : 1rem;
+}
+
+    .subtitle{
+    font-size: 1.3rem;
+}
+
+    .smallscr{
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+    a{
+    font-size: 1.2rem;
+}
+    label{
+        font-size: 1.2rem;
+    }
+
+    .need{
+    font-weight: 600;
+    margin-right: 2%;
+    font-size: 1rem;
+}
+    
+    input{
+    font-size: 1.1rem;
+}
+
+    button{
+    font-size: 0.95rem;
+}
+
+
+    .btn{
+    font-size: 1rem;
+    padding: 1%;
+    display: inline-block;
+} 
+    
+}
+
+@media screen and (min-width:767px) and (max-width:991px){
+       body{ 
+  font-size: 1.5rem;
+}
+
+    #signtitle{
+    font-size : 1.8rem;
+}
+    #signsub{
+    font-size : 1.4rem;
+}
+
+    .subtitle{
+    font-size: 1.5rem;
+}
+
+    .smallscr{
+    font-size: 1.2rem;
+    display: block;
+    margin-left: 5%;
+}
+
+    a{
+    font-size: 1.4rem;
+}
+    label{
+        font-size: 1.4rem;
+    }
+
+    .need{
+    font-weight: 600;
+    margin-right: 2%;
+    font-size: 1.5rem;
+}
+    
+    input{
+    font-size: 1.2rem;
+}
+
+    button{
+    font-size: 1.1rem;
+}
+
+    .btn{
+    font-size: 1.2rem;
+    display: inline-block;
+} 
+    
+}
+
+@media screen and (min-width:991px) and (max-width:1199px){
+
+    .btn{
+    font-size: 1.5rem;
+}
+    #submit{
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+    .smallscr{
+        display: block;
+        margin-left: 5%;
+    }
+    
+    #section2 input{
+        margin-left: 2%;
+        margin-top: 1%;
+    } 
+    
+}
